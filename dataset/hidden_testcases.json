@@ -37,3 +37,43 @@
     ]
   }
 }
+,
+,
+"2": {
+  "problem_title": "Calculate the area of a circle",
+  "topic": "Operators",
+  "difficulty": "Easy",
+  "test_cases": [
+    {
+      "case_id": 1,
+      "category": "Normal",
+      "input": "5",
+      "expected_output": "78.54"
+    },
+    {
+      "case_id": 2,
+      "category": "Boundary",
+      "input": "0",
+      "expected_output": "0.00"
+    },
+    {
+      "case_id": 3,
+      "category": "Decimal",
+      "input": "2.5",
+      "expected_output": "19.63"
+    },
+    {
+      "case_id": 4,
+      "category": "Unit",
+      "input": "1",
+      "expected_output": "3.14"
+    },
+    {
+      "case_id": 5,
+      "category": "Large",
+      "input": "100",
+      "expected_output": "31415.93"
+    }
+  ]
+}
+
