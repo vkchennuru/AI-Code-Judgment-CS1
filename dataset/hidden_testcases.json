@@ -1,1 +1,39 @@
-{}
+{
+  "1": {
+    "problem_title": "Read two integers and print their sum",
+    "topic": "Variables",
+    "difficulty": "Easy",
+    "test_cases": [
+      {
+        "case_id": 1,
+        "category": "Normal",
+        "input": "5 10",
+        "expected_output": "15"
+      },
+      {
+        "case_id": 2,
+        "category": "Boundary",
+        "input": "0 8",
+        "expected_output": "8"
+      },
+      {
+        "case_id": 3,
+        "category": "Negative",
+        "input": "-3 7",
+        "expected_output": "4"
+      },
+      {
+        "case_id": 4,
+        "category": "Large",
+        "input": "1000000 2000000",
+        "expected_output": "3000000"
+      },
+      {
+        "case_id": 5,
+        "category": "Both Negative",
+        "input": "-5 -6",
+        "expected_output": "-11"
+      }
+    ]
+  }
+}
